@@ -1,7 +1,11 @@
 
-package com.skydoves.disneycompose.ui.main
+package com.example.disneycompose.ui.main
 
 import androidx.annotation.WorkerThread
+
+import com.example.disneycompose.network.DisneyService
+import com.example.disneycompose.persistence.PosterDao
+import com.example.disneycompose.model.Poster
 
 import com.skydoves.sandwich.message
 import com.skydoves.sandwich.onFailure
